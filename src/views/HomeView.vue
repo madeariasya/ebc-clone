@@ -1,9 +1,9 @@
 <script setup>
 import Carousel from "../components/Carousel.vue"
 import AboutUs from "../components/AboutUs.vue"
-import Feature from "../components/feature.vue";
+import Feature from "../components/Feature.vue";
 import Footbar from "../components/Footbar.vue";
-import News from "../components/news.vue";
+import News from "../components/News.vue";
 import CTA from "../components/CTA.vue";
 </script>
 
