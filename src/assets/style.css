@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.parallax-bg {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 40rem;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+
+  .transparent-button:link, .link-button:visited {
+    background-color: transparent;
+    color: white;
+    border-radius: 25px;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .link-button:link, .link-button:visited {
+    background-color: #82CD47;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .link-button:hover, .link-button:active {
+    background-color: green;
+    color: white;
+  }
+  
+  .showme {
+    display: none;
+  }
+  
+  .showhim:hover .showme {
+    display: block;
+  }
